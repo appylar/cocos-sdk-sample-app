@@ -9,10 +9,10 @@ import { Appylar } from "./Appylar";
 @ccclass('MyScript')
 export class MyScript extends Component implements AppylarInitializationListener, AppylarBannerListener, AppylarInterstitialListener {
     configKeys: any = {
-        appKeyIos: "<appKeyIos>",
-        appKeyAndroid: "<appKeyAndroid>",
-        appIdIos: "<appIdIos>",
-        appIdAndroid: "<appIdAndroid>"
+        appKeyIos: "<YOUR_IOS_APP_KEY>",
+        appKeyAndroid: "<YOUR_ANDROID_APP_KEY>",
+        appIdIos: "<YOUR_IOS_APP_ID>",
+        appIdAndroid: "<YOUR_ANDROID_APP_ID>"
     };
     public Appylar: Appylar = null;
 
